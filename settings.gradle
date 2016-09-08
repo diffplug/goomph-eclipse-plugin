@@ -1,13 +1,5 @@
-// projects which demonstrate the value of OSGi and P2
-include 'com.diffplug.needs17'
-include 'com.diffplug.needs18'
-include 'com.diffplug.needsBoth'
-
-// snazzy gui to look at
-include 'com.diffplug.talks.rxjava_and_swt'
-
-// simple demo app
-include 'com.diffplug.rcpdemo'
+// the plugin we're developing
+include 'com.diffplug.ideplugin'
 
 // the targetplatform we're compiling against
 include 'target.p2'

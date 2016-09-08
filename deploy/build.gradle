@@ -8,6 +8,10 @@ import com.diffplug.common.swt.os.SwtPlatform
 // Build our application into a P2 repository //
 ////////////////////////////////////////////////
 
+// The following is for building an RCP product.
+// Need a new one for building a feature-based plugin.
+
+/*
 def P2_DIR = 'build/p2'
 
 task buildP2(type: PdeBuildTask, dependsOn: ':target.maven:bundles') {
@@ -71,3 +75,4 @@ for (SwtPlatform platform : SwtPlatform.getAll()) {
 	assembleAll.dependsOn(assemble)
 	assemble.dependsOn(buildP2)
 }
+*/

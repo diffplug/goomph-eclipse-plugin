@@ -1,4 +1,7 @@
 dependencies {
+	// eclipse/p2 dependencies
+	compile "eclipse-deps:org.eclipse.ui:+"
+	// maven dependencies
 	compile "com.diffplug.durian:durian-core:${VER_DURIAN}"
 	compile "com.diffplug.durian:durian-collect:${VER_DURIAN}"
 	compile "com.diffplug.durian:durian-rx:${VER_DURIAN_RX}"
